@@ -6,7 +6,7 @@ using UnityEngine;
 public class BallMovement : MonoBehaviour
 {
     [SerializeField]
-    float moveForce = 5;
+    float moveForce = 150;
     private bool didStart = false;
     Vector3 startPosition;
     

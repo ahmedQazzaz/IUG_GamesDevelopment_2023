@@ -25,6 +25,16 @@ public class Movement : MonoBehaviour
         float hMove = Input.GetAxis("Horizontal");
         transform.Translate(new Vector2(hMove, 0) * Time.deltaTime * speed);
 
+        int bricksCount = GameObject.FindGameObjectsWithTag("Brick").Length;
+        if (bricksCount == 0) {
+            Debug.Log("You Won");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Return) && didActivateLongPowerUp)
+        {
+            GetComponent<Animator>().SetTrigger("shrink");
+        }
+
     }
 
     public static void JumpToStart()
@@ -38,7 +48,8 @@ public class Movement : MonoBehaviour
         if (otherObject.tag == "PowerUp")
         {
             didActivateLongPowerUp = true;
-            
+            GetComponent<Animator>().SetTrigger("grow");
+
             Destroy(otherObject);
         }
     }

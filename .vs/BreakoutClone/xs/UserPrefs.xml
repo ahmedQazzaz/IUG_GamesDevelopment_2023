@@ -1,20 +1,23 @@
 ﻿<Properties StartupConfiguration="{64644A48-EB34-F8AD-8835-C46A8686EDC2}|">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/BallMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Movement.cs">
     <Files>
-      <File FileName="Assets/Scripts/BallMovement.cs" Line="64" Column="1" />
-      <File FileName="Assets/Scripts/Movement.cs" />
+      <File FileName="Assets/Scripts/BallMovement.cs" Line="45" Column="82" />
+      <File FileName="Assets/Scripts/Movement.cs" Line="52" Column="1" />
+      <File FileName="Assets/Scripts/LevelController.cs" Line="17" Column="1" />
+      <File FileName="Assets/Scripts/UIManager.cs" Line="36" Column="6" />
+      <File FileName="Assets/Scripts/PowerUpMovement.cs" Line="19" Column="6" />
+      <File FileName="Assets/LevelsManager.cs" Line="11" Column="60" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="BreakoutClone" expanded="True">
             <Node name="Assets" expanded="True">
+              <Node name="Resources" expanded="True">
+                <Node name="Prefabs" expanded="True" />
+              </Node>
               <Node name="Scripts" expanded="True">
-                <Node name="BallMovement.cs" selected="True" />
+                <Node name="Movement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -22,7 +25,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="77b82403-21df-4cbb-9774-116d30e843d1" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="b0aa8ef8-1a8d-4be5-83c5-2d2ccd5022e4" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

@@ -11,4 +11,6 @@ public class LevelController
     public int score = 0;
     public int lives = 3;
 
+    private LevelController() { }
+
 }

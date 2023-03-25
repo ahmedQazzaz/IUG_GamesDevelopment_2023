@@ -55,8 +55,10 @@ public class BallMovement : MonoBehaviour
 
         int x = Random.Range(0, 2);
         float factor = x == 0 ? 1 : -1;
+        float xForce = Random.Range(80, 220);
 
-        GetComponent<Rigidbody2D>().AddForce(new Vector2(moveForce * factor, moveForce));
+
+        GetComponent<Rigidbody2D>().AddForce(new Vector2(xForce * factor , moveForce));
         didStart = true;
     }
 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Brick
   - PowerUp
+  - MyTag
   layers:
   - Default
   - TransparentFX
